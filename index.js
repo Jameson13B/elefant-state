@@ -29,7 +29,11 @@ var ElefantContext = /*#__PURE__*/_react["default"].createContext(null);
 
 exports.ElefantContext = ElefantContext;
 
-var ElefantProvider = function ElefantProvider() {
+var ElefantProvider = function ElefantProvider(_ref) {
+  var reducer = _ref.reducer,
+      initialState = _ref.initialState,
+      children = _ref.children;
+
   var _useReducer = (0, _react.useReducer)(reducer, initialState),
       _useReducer2 = _slicedToArray(_useReducer, 2),
       state = _useReducer2[0],
