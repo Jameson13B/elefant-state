@@ -1,0 +1,42 @@
+{
+  "name": "elefant-state",
+  "version": "1.1.2",
+  "description": "Elefant is a simple global state management for React projects",
+  "main": "index.js",
+  "scripts": {
+    "build": "./node_modules/.bin/babel src --out-file index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jameson13B/elefant-state.git"
+  },
+  "keywords": [
+    "react",
+    "state",
+    "management",
+    "state",
+    "global",
+    "elefant",
+    "redux",
+    "context"
+  ],
+  "author": "Jameson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jameson13B/elefant-state/issues"
+  },
+  "homepage": "https://github.com/Jameson13B/elefant-state#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/cli": "^7.10.4",
+    "@babel/core": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "@babel/preset-react": "^7.10.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "peerDependencies": {
+    "react": "^16.6.1",
+    "react-dom": "^16.6.3"
+  }
+}
