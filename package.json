@@ -1,6 +1,6 @@
 {
   "name": "elefant-state",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "description": "Elefant is a simple global state management for React projects",
   "main": "index.js",
   "scripts": {
@@ -37,6 +37,6 @@
   },
   "peerDependencies": {
     "react": "^16.6.1",
-    "react-dom": "^16.6.3"
+    "react-dom": "^16.6.1"
   }
 }
